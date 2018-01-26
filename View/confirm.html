@@ -1,0 +1,50 @@
+<div class="container">
+	<div class="well">
+		<div class="row" style="margin-top: 15px;">
+			<div class="col-md-12 thank">
+					Confirmation: Thank You for shopping with us.
+			</div>
+			<div style="margin-top: 25px;">
+				<div class="col-lg-4 col-md-4 col-sm-3 col-xs-3 thank" style="margin-top: 35px;">
+					Selected Guitar-->
+				</div>
+				<div class="col-lg-5 col-md-4 col-sm-7 col-xs-7">
+					<div class="thumbnail">
+						<img ng-src={{ipath}} style="width: 450px; height: 300px;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="well">
+		<div class="row" style="margin-top: 15px;">
+			<div class="thank">
+			--Order Details--
+			</div>
+		</div>
+	<div class="row">
+		<div class="col-lg-4 col-md-4 errormsg">
+				Full Name:
+		</div>
+		<div class="col-lg-4 col-md-4 msg">{{first}}  {{last}} </div>
+	</div>
+	<div class="row" style="margin-top: 15px;">
+		<div class="col-lg-4 col-md-4 errormsg">
+				Your Order Confirmation email will sent On:
+		</div>
+		<div class="col-lg-4 col-md-4 msg"> {{mail}} </div>
+	</div>
+	<div class="row" style="margin-top: 15px;">
+		<div class="col-lg-3 col-md-4 col-sm-7 col-xs-7 errormsg">
+				Your Total Price :
+		</div>
+		<div class="col-lg-4 col-md-4  msg">${{amount.price}}</div>
+	</div>
+	<div class="row" style="margin-top: 50px;">
+		<div class="col-lg-4 col-md-3 col-sm-2 col-xs-2"></div>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" >
+				<button style="font-size: 30px; width: 300px;"  class="btn btn-lg btn-primary" ng-click="home()">Go Back to home</button>
+		</div>
+	</div>
+</div>
+</div>

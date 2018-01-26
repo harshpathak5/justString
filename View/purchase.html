@@ -1,0 +1,94 @@
+<div class="container">
+  <div class = "row">
+      <div class="col-md-5">
+            <div class="thumbnail">
+              <img ng-src={{path}} style="width: 600px; height: 500px;">
+						</div>
+      </div>
+
+			<div class="col-md-7">
+				<div class="well">
+					  <ul>
+							<li> <p class="btndesc" style="color:black;"> Product Info:</p> <p style="font-size: 22px;">{{selected.product_description}}</p></li>
+							<li> <p class="btndesc" style="color:black;"> Price : <b class="thank">$ {{selected.price}}</b></p></li>
+							<li> <p class="btndesc" style="color:black;"> Shipping-Info :{{selected.shipping_details}}</p></li>
+						</ul>
+				</div>
+		  </div>
+  </div>
+
+  <div ng-show="pur" class="content">
+	  <div class="container_form">
+      <div id="test-purchase-form">
+         <h2 class="form-heading">Purchase Form</h2>
+
+        <form name="login">
+            <div class="form-group">
+              <div class=""></div>
+				          <label>First Name:</label>
+				          <input ng-model="fname" type="text" placeholder="Enter Your First Name Here" name="fname " class="form-control input-width-fix" ng-required="true" ng-pattern='/^[a-zA-Z]+$/'  >
+				          <span ng-show="login.fname.$invalid && login.fname.$dirty" class="errormsg">Please Enter Characters Only</span>
+				    </div>
+
+				    <div class="form-group">
+				          <label>Last Name:</label>
+				          <input type="text" ng-required="true" ng-pattern='/^[a-zA-Z]+$/' ng-model="lname" name="lname" placeholder="Enter Your Last Name Here" class="form-control input-width-fix" >
+				          <span ng-show="login.lname.$invalid && login.lname.$dirty" class="errormsg">Please Enter Characters Only</span>
+				    </div>
+
+		        <div class="form-group">
+				          <label>Email:</label>
+				          <input type="email" ng-model="mail" name="mail" placeholder="Email-ID " class="form-control input-width-fix" ng-required="true" ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" >
+				          <span ng-show="login.mail.$invalid && login.mail.$dirty" class="errormsg">Format Should be abc@xyz.com</span>
+		        </div>
+
+            <div class="form-group">
+					        <label>Credit-Card:</label>
+					        <input type="number" ng-model="cc" name="card" placeholder="Enter your 16 digit card number" class="form-control input-width-fix" ng-required="true" ng-pattern="/^\d{16}$/" >
+					        <span ng-show="login.card.$invalid && login.card.$dirty" class="errormsg">Must be 16 digits</span>
+		        </div>
+	          <div style="margin-top: 50px;">
+	                 <button style="font-size: 30px; width: 300px;"  class="btn btn-lg btn-primary" ng-disabled="login.$invalid" ng-click="review()">Go to review</button>
+            </div>
+	      </form>
+      </div>
+    </div>
+  </div>
+
+  <div ng-hide="review1" class="review1" style="margin-top: 15px;">
+	  <div class="well">
+      <div class="row " style="margin-top: 15px;" >
+			  <div class="col-lg-3 col-md-3 col-sm-1 col-xs-1"></div>
+			  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+			      First Name:   <b style="color: black;"> {{fname}} </b>
+        </div>
+	    </div>
+	  <div class="row" style="margin-top: 15px;">
+		<div class="col-lg-3 col-md-3 col-sm-1 col-xs-1"></div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+			      Last Name: <b style="color: black;">   {{lname}}</b>
+      </div>
+	  </div>
+	<div class="row" style="margin-top: 15px;">
+			<div class="col-lg-3 col-md-3 col-sm-1 col-xs-1"></div>
+			<div class="col-lg-8 col-md-6 col-sm-6 col-xs-6 ">
+			       Your Email is:  <b style="color: black;"> {{mail}} </b>
+      </div>
+	</div>
+
+	<div class="row" style="margin-top: 15px;">
+			<div class="col-lg-3 col-md-3 col-sm-1 col-xs-1"></div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+			       Total- $ <b style="color: black;">{{selected.price}}</b>
+      </div>
+	</div>
+
+	  <div class="row" style="margin-top: 15px;" >
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+			<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"><button class="btn btn-lg btn-danger" ng-click="edit()">Edit</button></div>
+			<div class="col-lg-4 col-md-4 col-sm-5 col-xs-5"></div>
+			<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"><button class="btn btn-lg btn-primary" ng-click="confirm()">Buy</button></div>
+	  </div>
+	  </div>
+  </div>
+</div>

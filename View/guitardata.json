@@ -1,0 +1,59 @@
+{
+    "allProducts": [
+        {
+            "product_description": "X Series Guitars feature patented high pressure laminate (HPL) back and sides with a solid Sitka spruce top, patented mortise and tenon neck construction, and professionally installed Fishman electronics. The result: great-sounding, great-playing guitar, that is environmentally friendly, and priced to fly out the door. This is one of Martin's best values ever. The X Series affirms Martin's commitment to providing an affordable and competitive option for players dedicated to live performance and studio recording.",
+            "shipping_details": "Available in: 3-7 Days (estimated)",
+            "customer_reviews": " This new 2016 DX1-RAE was a replacement for, and a nice step up from my vintage 1973 Yahama FG160 straight acoustic. I am very pleased and look forward to many more years of enjoyable playing. ",
+            "price": 1249.99,
+            "image_path": "1.jpg",
+            "stock_availability": true,
+            "no_of_items": 100
+        },
+        {
+            "product_description": "Built on traditional styling and legendary Martin tone, the DRS1 acoustic-electric is one of the most affordable solid wood models they offer. Constructed with sapele top, back and sides for a very mahogany-like warmth most acoustic players crave with a bit more love on the high end.",
+            "shipping_details": "Available in: 3-7 Days (estimated)",
+            "customer_reviews": "I bought this guitar on December 26 and haven't set it down yet! I wanted to learn finger style and found my Epiphone Dove just too hard to play and fret, plus I didn't like the trebley sound it had. My wife said I could get whatever I wanted for my 50th birthday so I went to the closest Guitar Center and started playing guitars in my price range.",
+            "price": 758.00,
+            "image_path": "2.jpg",
+            "stock_availability": true,
+            "no_of_items": 50
+        },
+        {
+            "product_description": "Here's another guitar many people feel is a great value. This Pacifica features an agathis body, maple neck, and rosewood fretboard, with two single coil pick-ups, and one humbucker. The consensus is the guitar is reasonably well made, and the quality of the wood tends to be high.",
+            "shipping_details": "Available in: 6-7 Days (estimated)",
+            "customer_reviews": "  yep...those were the pros above...basically this guitar;I guess it might be okay if you need something that looks and feels like a guitar;hmm...well, hit it hard and it chips...no finish flaws though;the tuners suck so bad it's hard to describe...tuning it is a real pain...but it doesn't go out too quickly I guess... ; just to practice on if you don't care what it sounds like at all... ",
+            "price": 673.99,
+            "image_path": "3.jpg",
+            "stock_availability": true,
+            "no_of_items": 25
+        },
+        {
+            "product_description": "Guitarists like Keith Richards, Steve Cropper, Albert Lee, and Danny Gatton favor the look and sound of the Telecaster. If you're a fan of any of those guitarists, this beginner guitar may be for you. ",
+            "shipping_details": "Available in: 10-12 Days (estimated)",
+            "customer_reviews": "It's got a fatter sound to it than a standard strat for obvious reasons.; I only have a couple complaints. First of all, there's a slight buzzing problem on the sixth string; especially if you're not pressing hard. Also, the strings that came on it were very low quality; On several strings I couldn't even get a note below the 12th fret; but I put Elixirs on it and that's fixed.  ",
+            "price": 3544.00,
+            "image_path": "4.jpg",
+            "stock_availability": true,
+            "no_of_items": 100
+        },
+        {
+            "product_description": "The Les Paul is perhaps the most famous guitar in rock and roll. Epiphone has done a good job of visually re-creating the Les Paul in this lower-cost guitar marketed towards beginners. The Special II features a laminated alder/maple body, a magogany neck, rosewood fingerboard, and two open-coil humbucking pick-ups.",
+            "shipping_details": "Available in: 15 Days (estimated)",
+            "customer_reviews": "  Nice tone with use of quality strings, highs are clear and lows are decent; in depth considering this really is a beginner's guitar; Set up must be with quality strings.  No apparent flaws, guitar now 11 years old and still sounds great; Finish is still impeccable. I'm really surprised as I did not expect it to last this long; No apparent flaws, guitar now 11 years old and still sounds great. Finish is still impeccable",
+            "price": 450.60,
+            "image_path": "5.jpg",
+            "stock_availability": true,
+            "no_of_items": 23
+        },
+        {
+            "product_description": "These Canadian-made instruments are terrific guitars - very highly regarded, both for their beautiful sound, and their excellent value. The S6 features a solid cedar top, and mahogany back and sides. ",
+            "shipping_details": "Available in: 3-7 Days (estimated)",
+            "customer_reviews": " It's a solid guitar and it's great for a beginner; It feels very sturdy; On the negative side one of the pickups is kind of wobbly; Buy a Squier Standard if you want something better than an Affinity (even cheaper); but don't have the money for a regular Fender. ",
+            "price": 563.99,
+            "image_path": "6.jpg",
+            "stock_availability": true,
+            "no_of_items": 84
+        }
+
+    ]
+}

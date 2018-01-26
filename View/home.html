@@ -1,0 +1,65 @@
+<div class="container">
+    <div class = "row">
+        <div class="col-md-3">
+            <div class="lead">Guitar Center</div>
+            <div class="list-group">
+                <div class="list-group-item active">Guitar</div>
+                <div class="list-group-item">Drum</div>
+                <div class="list-group-item">Bass</div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="thumbnail">
+					      <img class="img-responsive" src="../imgs/1.png" ng-src={{slide}} style="height: 450px;">
+              <div class="caption-full">
+                <div class="row" style="margin-top: 50px;" >
+                  <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2"></div>
+                  <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"><button class="btn btn-lg btn-success" ng-click="previous()">&lt &lt Previous</button></div>
+                  <div class="col-lg-4 col-md-4 col-sm-5 col-xs-5"></div>
+                  <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"><button class="btn btn-lg btn-success" ng-click="next()">Next &gt &gt</button></div>
+                </div>
+              </div>
+            </div>
+
+          <div class="well">
+            <div class="row">
+                <div class="col-lg-12  pull-left btndesc">
+                		<button  class="btn btn-lg btn-info" ng-click='info1(); pinfo()'>+</button>
+                			Product Overview
+                </div>
+
+                <div class="col-lg-12 pull-left info" ng-if='val'>
+                		{{info.product_description}}
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 15px;">
+                <div class="col-lg-12 pull-left btndesc">
+                    <button class="btn btn-lg btn-info" ng-click='info1(); cinfo()'>+</button>
+                        Customer Reviews
+                </div>
+
+                <div ng-if='cval' class="col-lg-12 pull-left info">
+                        {{info.customer_reviews}}
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 15px;">
+                <div class="col-lg-12 pull-left btndesc">
+                      <button class="btn btn-lg btn-info" ng-click='info1(); sinfo()'>+</button>
+                        Shipping Information
+                </div>
+                <div  ng-if='sval' class="col-lg-12 pull-left info">
+                        {{info.shipping_details}}
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 50px;">
+                <div class="pull-left" >
+                    <button style="font-size: 30px; width: 300px;"  class="btn btn-lg btn-primary" ng-click="info1(); purchase()">BUY NOW</button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
